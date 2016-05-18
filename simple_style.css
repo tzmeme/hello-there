@@ -1,0 +1,50 @@
+body { 
+	font:8pt verdana; 
+	background: #7f0000;
+	margin:0;
+	padding:0;
+	-webkit-background-size:cover; 
+	-o-background-size:cover;
+	background-size:cover;
+	width:1200px;
+	height: 1463px;
+  }
+	
+	h1 { 
+	font-family: Helvetica,Arial,sans-serif, Myanmar3 ;  
+	font-size: 2.5em; /* 40px/16=2.5em */
+	margin-left: 40px; 
+	color: maroon;
+	}
+
+	h2 {
+	font-family: Times New Roman, Times, serif, Arial, 'Zawgyi-One','Zawgyi1','Zawgyi-One-Embedded'; 
+	font-size: 1.875em; /* 30px/16=1.875em */
+	}
+
+	h3 {
+	font-family: Times New Roman, Times, serif, Arial, 'Zawgyi-One','Zawgyi1','Zawgyi-One-Embedded'; 
+	font-size: 1.875em; /* 30px/16=1.875em */
+	}
+	
+	head3{
+	font-family: ‘Arial’, ‘Zawgyi-One’, ‘Zawgyi1’, ‘Zawgyi-One-Embedded’; 
+	font-size: 1.875em; /* 30px/16=1.875em */
+	font-style: italic;
+	}
+
+	p{
+	  font-family: Arial, 'Zawgyi-One','Zawgyi1','Zawgyi-One-Embedded', 'zawgyi-one';  
+	  font-size: 14px;
+	  } 
+
+	p.italic {
+		font-style: italic;
+	}
+
+	div{
+	  font-family: Arial, 'Zawgyi-One','Zawgyi1','Zawgyi-One-Embedded', 'zawgyi-one';  
+	  font-size: 12px;
+          color: #3f0000;
+	} 
+	
