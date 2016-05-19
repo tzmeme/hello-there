@@ -28,9 +28,10 @@ body{
 }
 
 .header{
-	color: #676767;
+	color: #FFFFFF;
 	font-family: Zawgyi-One, Verdana, Arial, sans-serif;
 	font-size: 14px;
+        font-color: #FF3300;
 	letter-spacing:0;
 
 
