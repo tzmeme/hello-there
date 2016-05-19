@@ -2,15 +2,45 @@
   font-family: ‘Arial’;
   font-style: normal;
   font-weight: bold;
-  src: local('Arial'), local(‘Arial-Light'), url(https://github.com/tzmeme/hello-there/blob/master/Arial.ttf?raw=true);
+  src: local('Arial'), local(‘Arial-Light'), url(https://github.com/tzmeme/hello-there/blob/master/Arial.ttf?raw=true) Format(‘truetype’);
+}
+
+@font-face {
+  font-family: ‘Open Sans Bold’;
+  font-style: normal;
+  font-weight: bold;
+  src: local(‘Open Sans Bold'), local(‘OpenSans-Bold’), url(https://github.com/tzmeme/hello-there/blob/master/Arial.ttf?raw=true) Format(‘off’);
 }
 
 
-
 @font-face {
-  font-family:“ZawgyiOne”;
-  src: local("ZawgyiOne"),
-       local("ZawgyiOne"),
-       url(ZawgyiOne.ttf);
+  font-family:’Zawgyi-One’;
+  src: local(‘Zawgyi-One’),
+       url(https://github.com/tzmeme/hello-there/blob/master/ZawgyiOne.ttf?raw=true) Format(‘truetype’);
   font-weight: bold;
+}
+
+body{
+	color: #575757;
+	font-family: Zawgyi-One, ‘Open Sans’, sans-serif;
+	font-size: 12px;
+	background-color: #731f0c;
+}
+
+.header{
+	color: #676767;
+	font-family: Zawgyi-One, Verdana, Arial, sans-serif;
+	font-size: 14px;
+	letter-spacing:0;
+
+
+}
+
+.body_content{
+	color: #676767;
+	font-family: Zawgyi-One, Verdana, Arial, sans-serif;
+	font-size: 14px;
+	letter-spacing:0;
+
+
 }
