@@ -1,6 +1,16 @@
 @font-face {
   font-family: ‘Arial’;
   font-style: normal;
-  font-weight: 300;
-  src: local('Arial'), local(‘Arial-Light'), url(https://github.com/tzmeme/hello-there/blob/master/arial.ttf?raw=true.woff) format('woff');
+  font-weight: bold;
+  src: local('Arial'), local(‘Arial-Light'), url(https://github.com/tzmeme/hello-there/blob/master/arial.ttf?raw=true);
+}
+
+
+
+@font-face {
+  font-family:“ZawgyiOne”;
+  src: local("ZawgyiOne"),
+       local("ZawgyiOne"),
+       url(ZawgyiOne.ttf);
+  font-weight: bold;
 }
