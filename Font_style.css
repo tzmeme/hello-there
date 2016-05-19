@@ -2,21 +2,21 @@
   font-family: ‘Arial’;
   font-style: normal;
   font-weight: bold;
-  src: local('Arial'), local(‘Arial-Light'), url(https://github.com/tzmeme/hello-there/blob/master/Arial.ttf?raw=true) Format(‘truetype’);
+  src: local('Arial'), local(‘Arial-Light'), url(https://github.com/tzmeme/hello-there/blob/master/Arial.ttf?raw=true) Format(‘off’);
 }
 
 @font-face {
   font-family: ‘Open Sans Bold’;
   font-style: normal;
   font-weight: bold;
-  src: local(‘Open Sans Bold'), local(‘OpenSans-Bold’), url(https://github.com/tzmeme/hello-there/blob/master/Arial.ttf?raw=true) Format(‘off’);
+  src: local(‘Open Sans Bold'), local(‘OpenSans-Bold’), url(https://github.com/tzmeme/hello-there/blob/master/Arial.ttf?raw=true) Format(‘woff’);
 }
 
 
 @font-face {
   font-family:’Zawgyi-One’;
   src: local(‘Zawgyi-One’),
-       url(https://github.com/tzmeme/hello-there/blob/master/ZawgyiOne.ttf?raw=true) Format(‘truetype’);
+       url(https://github.com/tzmeme/hello-there/blob/master/ZawgyiOne.ttf?raw=true) Format(‘off’);
   font-weight: bold;
 }
 
